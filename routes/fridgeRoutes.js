@@ -1,15 +1,16 @@
 const express = require("express");
-const {
-  getFridgeInventory,
-  addItemToFridge,
-  removeItemFromFridge,
-  getRecipeSuggestions,
-} = require("../controllers/fridgeController");
 const router = express.Router();
 
-router.post("/:user_id/add", addItemToFridge);
-router.get("/:user_id", getFridgeInventory);
-router.delete("/:user_id/remove", removeItemFromFridge);
-router.get("/recipe-suggestions/:user_id", getRecipeSuggestions);
+const {
+  addItemsToFridge,
+  getFridgeInventory,
+  removeItemFromFridge,
+  updateItemQuantity,
+} = require("../controllers/fridgeController");
+
+router.post("/:user_id/add", addItemsToFridge);
+router.get("/:user_id/inventory", getFridgeInventory);
+router.post("/:user_id/remove", removeItemFromFridge);
+router.post("/:user_id/update-quantity", updateItemQuantity);
 
 module.exports = router;

@@ -1,7 +1,10 @@
 const express = require("express");
 const recipeRoutes = require("./routes/recipeRoutes");
 const fridgeRoutes = require("./routes/fridgeRoutes");
-const { connection } = require("./config");
+const authRoutes = require("./routes/auth");
+const ingredientsRoutes = require("./routes/ingredientRoutes");
+const { connection } = require("./config/db");
+
 const cors = require("cors");
 
 require("dotenv").config();
@@ -16,8 +19,11 @@ app.get("/", (req, res) => {
 
 app.use(cors());
 
-app.use("/api", recipeRoutes);
+app.use("/v1/auth", authRoutes);
+
+app.use("/recipe", recipeRoutes);
 app.use("/fridge", fridgeRoutes);
+app.use("/ingredient", ingredientsRoutes);
 
 app.listen(PORT, async (req, res) => {
   try {

@@ -1,15 +1,18 @@
 const express = require("express");
-const {
-  searchRecipes,
-  getRecipeById,
-  addRecipesInArray,
-  getAllRecipes,
-} = require("../controllers/recipeController");
 const router = express.Router();
 
-router.post("/recipes/add", addRecipesInArray);
+const {
+  getAllRecipeNames,
+  addRecipesInArray,
+  searchRecipes,
+  getAllRecipes,
+  getRecipeSuggestions,
+} = require("../controllers/recipeController");
+
+router.get("/names", getAllRecipeNames);
+router.post("/add", addRecipesInArray);
 router.get("/search", searchRecipes);
-router.get("/recipes/:id", getRecipeById);
 router.get("/all", getAllRecipes);
+router.get("/suggestion/:user_id", getRecipeSuggestions);
 
 module.exports = router;
