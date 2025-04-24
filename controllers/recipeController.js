@@ -565,15 +565,76 @@ const recipesToUpdate = [
   //     imageUrl:
   //       "https://res.cloudinary.com/dwm0ojiz8/image/upload/v1740737923/Vegetable_Soup_y0zrt2.webp",
   //   },
-  {
-    name: "Aloo Gobhi",
-    imageUrl:
-      "https://res.cloudinary.com/dwm0ojiz8/image/upload/v1745312303/ChatGPT_Image_Apr_22_2025_02_13_50_PM_vltbwm.png",
-  },
+
   {
     name: "Aloo Jeera",
     imageUrl:
       "https://res.cloudinary.com/dwm0ojiz8/image/upload/v1745312303/ChatGPT_Image_Apr_22_2025_02_13_50_PM_vltbwm.png",
+  },
+  {
+    name: "Kathal Curry",
+    imageUrl:
+      "https://res.cloudinary.com/dwm0ojiz8/image/upload/v1745489928/Kathal_Curry_ig5m7z.png",
+  },
+  {
+    name: "Fish Curry",
+    imageUrl:
+      "https://res.cloudinary.com/dwm0ojiz8/image/upload/v1745489923/Fish_curry_tjd9fe.png",
+  },
+  {
+    name: "Chicken Curry",
+    imageUrl:
+      "https://res.cloudinary.com/dwm0ojiz8/image/upload/v1745489924/Chicken_Curry_jg0dl7.png",
+  },
+  {
+    name: "Egg Curry",
+    imageUrl:
+      "https://res.cloudinary.com/dwm0ojiz8/image/upload/v1745489922/Egg_curry_oddvvn.png",
+  },
+  {
+    name: "Kadai Paneer",
+    imageUrl:
+      "https://res.cloudinary.com/dwm0ojiz8/image/upload/v1745489920/Kadai_Paneer_c9b0no.png",
+  },
+  {
+    name: "Cabbage Stir Fry",
+    imageUrl:
+      "https://res.cloudinary.com/dwm0ojiz8/image/upload/v1745489826/Cabbage_Stir_Fry_a9nqhb.png",
+  },
+  {
+    name: "Bhindi Masala",
+    imageUrl:
+      "https://res.cloudinary.com/dwm0ojiz8/image/upload/v1745489818/Bhindi_masala_blkfin.png",
+  },
+  {
+    name: "Jeera Aloo",
+    imageUrl:
+      "https://res.cloudinary.com/dwm0ojiz8/image/upload/v1745312541/ChatGPT_Image_Apr_22_2025_02_32_09_PM_vp7lsk.png",
+  },
+  {
+    name: "Aloo Gobi",
+    imageUrl:
+      "https://res.cloudinary.com/dwm0ojiz8/image/upload/v1745312303/ChatGPT_Image_Apr_22_2025_02_13_50_PM_vltbwm.png",
+  },
+  {
+    name: "Kurkuri Bhindi",
+    imageUrl:
+      "https://res.cloudinary.com/dwm0ojiz8/image/upload/v1745490422/Kurkuri_Bhindi_egxtkh.png",
+  },
+  {
+    name: "Lotus Root Curry",
+    imageUrl:
+      "https://res.cloudinary.com/dwm0ojiz8/image/upload/v1745490420/Lotus_Root_Curry_vqoeoo.png",
+  },
+  {
+    name: "Masala Dosa",
+    imageUrl:
+      "https://res.cloudinary.com/dwm0ojiz8/image/upload/v1740737929/Masala_Dosa_v0vpki.webp",
+  },
+  {
+    name: "Palak Paneer",
+    imageUrl:
+      "https://res.cloudinary.com/dwm0ojiz8/image/upload/v1745490705/Palak_Paneer_wgpnwk.png",
   },
 ];
 
