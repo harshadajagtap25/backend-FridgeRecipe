@@ -17,10 +17,18 @@ const app = express();
 
 const allowedOrigins = [
   "http://localhost:5173",
-  "https://fridge-recipe-app.vercel.app/",
+  "https://fridge-recipe-app.vercel.app",
 ];
 
 app.use(
+  cors({
+    origin: allowedOrigins,
+    credentials: true,
+  })
+);
+
+app.options(
+  "*",
   cors({
     origin: allowedOrigins,
     credentials: true,
