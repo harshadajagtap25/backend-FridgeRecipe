@@ -9,12 +9,24 @@ const { connection } = require("./config/db");
 
 const PORT = process.env.PORT || 8080;
 
-const cors = require("cors");
 require("dotenv").config();
+
+const cors = require("cors");
 
 const app = express();
 
-app.use(cors());
+const allowedOrigins = [
+  "http://localhost:5173",
+  "https://fridge-recipe-app.vercel.app/",
+];
+
+app.use(
+  cors({
+    origin: allowedOrigins,
+    credentials: true,
+  })
+);
+
 app.use(express.json());
 
 app.get("/", (req, res) => {
