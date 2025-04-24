@@ -569,7 +569,7 @@ const recipesToUpdate = [
   {
     name: "Aloo Jeera",
     imageUrl:
-      "https://res.cloudinary.com/dwm0ojiz8/image/upload/v1745312303/ChatGPT_Image_Apr_22_2025_02_13_50_PM_vltbwm.png",
+      "https://res.cloudinary.com/dwm0ojiz8/image/upload/v1745312541/ChatGPT_Image_Apr_22_2025_02_32_09_PM_vp7lsk.png",
   },
   {
     name: "Kathal Curry",
